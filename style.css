@@ -1,0 +1,60 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #24292e;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.hero {
+  background: #ffd89b;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.hero button {
+  background: #ff6f61;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+section.recipe, section.about {
+  max-width: 800px;
+  margin: 40px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+}
+
+.recipe img, .about img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+footer {
+  background: #24292e;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
